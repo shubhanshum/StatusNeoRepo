@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EndToEndFlowSuite" verbose="1">
+
+	<test name="SanityTestsOnChrome">
+		<classes>
+		    <class name="com.magento.api.tests.GetCovidDataTest" />
+			
+		</classes>
+	</test>
+</suite>
